@@ -42,6 +42,7 @@ header{
 
     display: flex;
     margin-left: 330px;
+    transition: 1s;
 }
 .header-menu3 a img{
     margin-left: 15px;
@@ -86,7 +87,7 @@ header{
     line-height: 24px;
     height: 40px;
     width: 140PX;
-
+    transition: 1s;
 }
 .first-page-bottil{
     padding-top: 89px;
@@ -168,6 +169,7 @@ header{
     align-items: center;
     color: white;
     font-size: 14px;
+    transition: 1s;
 }
 .footer-right h3{
     margin-right: 145px;
@@ -205,4 +207,15 @@ header{
 }
 a:hover{
     color: black;
+}
+.header-menu3 img:hover{
+    transform: scale(1.3
+    );
+}
+.first-page-button:hover{
+    background-color: black;
+    color: white;
+}
+.footer-left-webs:hover img{
+transform: scale(1.2);
 }
